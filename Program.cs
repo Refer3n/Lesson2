@@ -11,6 +11,7 @@ namespace L2
             using(var SqlCon = new SqlConnection(ConString))
             {
                 SqlCon.Open();
+                  
 
                 SqlCon.Close();
             }
